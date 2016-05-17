@@ -1,21 +1,13 @@
 ---
 layout: page
-title: About Emerald
+title: About
 ---
-## About
-Emerald is a minimal theme created for Jekyll. The main purpose of Emerald is to provide a clear theme for those who want a blog ready to use, focused on the content and mobile-first.
+## About CPSSD
 
-For further details on Emerald, please visit the [repository on Github](https://github.com/KingFelix/emerald/).
+[Computational Problem Solving and Software Development](http://www.computing.dcu.ie/undergraduate/pssd/computational-problem-solving-software-development-cpssd) (CPSSD) is an undergraduate computing course in [Dublin City University](http://dcu.ie) that requires applicants to have a prior knowledge of programming. This means that students can save time re-learning the basics, and jump straight into making some cool things.
 
-![Emerald](img/Emerald01.png "Emerald")
+The course has a special admission procedure. Applicants do not need to worry about points, but must submit a portfolio, pass an interview, achieve the minimum DCU entry requirements, and pass honours maths. This is outlined in detail [here](http://www.computing.dcu.ie/undergraduate/pssd/portfolio-interview).
 
-### Setup
-Emerald may be installed by simply downloading the .zip folder from the [repository on Github](https://github.com/KingFelix/emerald/archive/master.zip).
+## About This Site
+The [official CPSSD site](http://www.computing.dcu.ie/undergraduate/pssd/computational-problem-solving-software-development-cpssd) should be the primary reference for anyone interested in the course. However, this page exists to provide people with a friendlier introduction to CPSSD, showcase some of the projects CPSSD students have created, and bring together the internet presence of those students. 
 
-After extracting the content from the folder into the selected directory, you can type ``jekyll serve`` from the terminal, than open your browser to ``0.0.0.0:4000/emerald/`` and you will find it there.
-
-Additionally it is possible to fork the repository and use Github Pages as hosting. By following this way it will be enough to change the ``baseurl`` value into the ``_config.yml`` file, with the directory name of your project (for example /blog) or simply with a "/" (slash) if you want install Emerald in the root. 
-
-Last but not least: the [Jekyll documentation](http://jekyllrb.com) is the best starting point!
-
-Enjoy!

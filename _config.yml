@@ -1,11 +1,11 @@
 # Site settings
-title: Emerald | A simple Jekyll blog
-description: "A minimal blog template, build with Jekyll."
-url: "http://www.jacoporabolini.com/emerald"
+title: Computational Problem Solving & Software Development
+description: "A computing course in DCU for applicants with a prior knowledge of programming."
+url: "http://cpssd.net"
 author:
-  name: "Jacopo Rabolini"
-  email: "hello@jacoporabolini.com"
-  url: "http://www.jacoporabolini.com"
+  name: "Noah Ó Donnaile"
+  email: "cac@redbrick.dcu.ie"
+  url: "http://mycode.doesnot.run"
 
 # Build settings
 baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
@@ -26,7 +26,7 @@ defaults:
       layout: "post"
 
 # Custom variables
-version: "1.1.0"
+version: "1.0"
 
 # Plugins
 gems: ["jekyll-paginate"]
