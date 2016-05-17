@@ -118,9 +118,12 @@
 }
 
 #header {
-	text-align: center;
-  padding: 24px 0;
+  text-align: center;
+  padding: 24px 1.5rem;
   position: relative;
+  max-width: 730px;
+  margin: 0 auto;
+
   a {
   	text-decoration: none;
   	color: $text-color;
