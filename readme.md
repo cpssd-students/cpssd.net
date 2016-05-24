@@ -4,11 +4,14 @@ This is an unoffical hub for CPSSD, because the real website is very static, ful
 
 It is built using the Emerald theme for Jekyll, and is hosted on Github Pages. Those things have their own docs you can look at.
 
-Any edits should be made to the `gh-pages` branch. If you make the changes on `master`, merge master into `gh-pages`.
+Any articles should be on the `gh-pages` branch.
 
-Feel free to submit pull requests, and edit anything and everything.
+Feel free to submit pull requests, make issues, and edit anything and everything.
 
 Anyone can add a post to the blog. We'll figure out some way of organising that as it goes. Just copy the format of an existing post and submit a pull request.
+
+
+
 
 # Emerald
 
