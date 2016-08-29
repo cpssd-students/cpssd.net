@@ -26,7 +26,7 @@ You should also [follow all of our RSS feeds](http://feedlark.com)...
 - Stefan Kennedy
 - Kumaran Keyes
 - Ciarán Murphy
-- Ross O'Sullivan
+- Ross O'Sullivan: [website](http://sailslick.xyz), [github](http://github.com/SailSlick), [linkedin](https://www.linkedin.com/in/ross-o-sullivan-8b6031116)
 - Cian Ruane: [website](http://binarysear.ch), [twitter](http://twitter.com/CianLR), [github](http://github.com/CianLR)
 - Lucas Savva: [website](http://m1cr0man.com), [twitter](http://twitter.com/m1cr0m4n)
 - Kirill Sloka
