@@ -2,6 +2,7 @@
 title: Computational Problem Solving & Software Development
 description: "A computing course in DCU for applicants with a prior knowledge of programming."
 url: "http://cpssd.net"
+enforce_ssl: "cpssd.net"
 author:
   name: "Noah Ó Donnaile"
   email: "cac@redbrick.dcu.ie"
