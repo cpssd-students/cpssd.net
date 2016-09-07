@@ -17,7 +17,7 @@ You should also [follow all of our RSS feeds](http://feedlark.com)...
 
 ## Graduating 2020
 
-¯\\_(ツ)_/¯
+¯\\\_(ツ)\_/¯
 
 ## Graduating 2019
 
