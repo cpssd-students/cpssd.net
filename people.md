@@ -41,7 +41,7 @@ You should also [follow all of our RSS feeds](http://feedlark.com)...
 ## Graduating 2018
 
 - Wojtek Bednarzak: [website](http://razoft.com), [twitter](https://twitter.com/mevoytech), [github](https://github.com/VoyTechnology), [linkedin](https://ie.linkedin.com/in/wojciechbednarzak)
-- Terry Bolt: [github](https://github.com/GoldenBadger)
+- Terry Bolt: [github](https://github.com/GoldenBadger), [twitter](https://twitter.com/goldenbadger)
 - Conor Flynn: [github](https://github.com/conor-f)
 - Conor Griffin: [github](https://github.com/ConorGriffin37)
 - Darragh Griffin: [github](https://github.com/DarraghGriffin)
