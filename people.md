@@ -40,7 +40,6 @@ You should also [follow all of our RSS feeds](http://feedlark.com)...
 - Cian Ruane: [website](http://binarysear.ch), [twitter](http://twitter.com/CianLR), [github](http://github.com/CianLR)
 - Lucas Savva: [website](http://m1cr0man.com), [twitter](http://twitter.com/m1cr0m4n)
 - Kirill Sloka
-- James Storey: [github](https://github.com/jstorey97)
 - James Toolen: [github](https://github.com/GwailuJ)
 - Niall Walsh: [github](https://github.com/Deniall)
 
