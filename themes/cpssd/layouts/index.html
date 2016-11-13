@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+{{ range where .Data.Pages "Type" "!=" "root-page" }}
+  <article>
+    <h3 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <span class="date">{{ .Date.Format "02 Jan 2006" }}</span>
+    <p>{{ .Summary }}</p>
+  </article>
+{{ end }}
+</section>
+{{ partial "footer.html" . }}

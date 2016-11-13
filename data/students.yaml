@@ -1,0 +1,90 @@
+- graduation: 2020
+  students:
+    - name: Edward Dowling
+      github: https://github.com/EdwardDowling
+    - name: Rory Williams Doyle
+      github: https://github.com/Rawd2020
+      website: https://rorywilliamsdoyle.com/
+    - name: Zak Freeman
+      github: https://github.com/izaakf
+    - name: Clíodhna Harrison
+      github: https://github.com/cliodhnaharrison
+      twitter: https://twitter.com/Classic_Cli
+      linkedin: https://www.linkedin.com/in/cl%C3%ADodhna-harrison-94759b107
+    - name: Senan Kelly
+      github: http://github.com/sentriz
+      website: http://senan.xyz/
+      twitter: http://twitter.com/sentriz
+    - name: Oskar McDermott
+      github: http://github.com/oskarmcd
+      twitter: http://twitter.com/OskarmcD
+    - name: Alex McGrath Kraak
+      github: https://github.com/AlexKraak
+      twitter: https://twitter.com/mouldysammich
+    - name: Ben McMahon
+      github: https://github.com/benmcmahon100
+      website: http://www.redbrick.dcu.ie/~mcmahon/
+- graduation: 2019
+  students:
+    - name: Aaron Delaney
+      github: http://github.com/devoxel
+      twitter: http://twitter.com/devoxel
+      website: http://devoxel.github.io/
+    - name: Noah Donnelly
+      github: http://github.com/iandioch
+      website: http://mycode.doesnot.run/
+      twitter: http://twitter.com/iandioch
+      linkedin: https://ie.linkedin.com/in/noah-donnelly-21428269
+    - name: Marcin Gardas
+      website: http://marcingardas.com/
+    - name: Breogán Hackett
+      github: https://github.com/boaheck
+    - name: Brandon Ibbotson
+      github: http://github.com/byxor
+      website: https://byxor.github.io/
+    - name: Stefan Kennedy
+    - name: Kumaran Keyes
+    - name: Ciarán Murphy
+      github: https://github.com/Smurphicus
+    - name: Ross O’Sullivan
+      github: http://github.com/SailSlick
+      website: http://sailslick.xyz/
+      linkedin: https://www.linkedin.com/in/ross-o-sullivan-8b6031116
+    - name: Cian Ruane
+      github: http://github.com/CianLR
+      website: http://binarysear.ch/
+      twitter: http://twitter.com/CianLR
+    - name: Kirill Sloka
+    - name: James Toolen
+      github: https://github.com/GwailuJ
+    - name: Niall Walsh
+      github: https://github.com/Deniall
+- graduation: 2018
+  students:
+    - name: Wojtek Bednarzak
+      github: https://github.com/VoyTechnology
+      website: https://wojtek.bednarzak.com
+      twitter: https://twitter.com/voytechnology
+      linkedin: https://ie.linkedin.com/in/wojciechbednarzak
+    - name: Terry Bolt
+      github: https://github.com/GoldenBadger
+      twitter: https://twitter.com/goldenbadger
+    - name: Conor Flynn
+      github: https://github.com/conor-f
+    - name: Conor Griffin
+      github: https://github.com/ConorGriffin37
+    - name: Darragh Griffin
+      github: https://github.com/DarraghGriffin
+    - name: Seán Healy
+      github: https://github.com/SeanHealy33
+    - name: Ryan Connell
+      github: https://github.com/RyanConnell
+      website: http://rhinodude.com/
+    - name: Conor McManus
+      github: https://github.com/cgmc
+    - name: Jack Smith
+      github: https://github.com/JackSmith54
+    - name: Rory Byrne
+      github: https://github.com/RoryOfByrne
+      website: http://rorybyrne.me/
+      left: true

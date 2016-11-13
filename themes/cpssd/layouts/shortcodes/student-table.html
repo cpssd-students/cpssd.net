@@ -1,0 +1,14 @@
+{{ range .Site.Data.students }}
+  <table id="students">
+    <tr><td><h2>Graduating {{ .graduation }}</h2></td></tr>
+  {{ range .students }}
+    <tr>
+      <td>{{.name}}{{if .left}} (left CPSSD){{end}}</td>
+      <td>{{with .github}}{{if .}}<a href="{{.}}">github</a>{{else}}&nbsp;{{end}}{{end}}</td>
+      <td>{{with .website}}{{if .}}<a href="{{.}}">website</a>{{else}}&nbsp;{{end}}{{end}}</td>
+      <td>{{with .twitter}}{{if .}}<a href="{{.}}">twitter</a>{{else}}&nbsp;{{end}}{{end}}</td>
+      <td>{{with .linkedin}}{{if .}}<a href="{{.}}">linkedin</a>{{else}}&nbsp;{{end}}{{end}}</td>
+    </tr>
+  {{ end }}
+  </table>
+{{ end }}

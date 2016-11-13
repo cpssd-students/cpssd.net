@@ -1,0 +1,23 @@
+version: 2
+jobs:
+  build:
+    docker:
+      # TODO: Replace with a hugo dedicated build image
+      - image: alpine:latest
+    working_directory: /cpssd.net
+    environment:
+      - HUGO_VERSION: "0.44"
+    steps:
+      - run:
+          name: "Install OS dependencies"
+          command: apk add -U wget git openssh-client
+      - checkout
+      - run:
+          name: "Download Hugo"
+          command: /cpssd.net/.circleci/install.sh
+      - run:
+          name: "Build Site"
+          command: HUGO_ENV=production hugo -v
+      - run:
+          name: "Deploy if on master"
+          command: if [ $CIRCLE_BRANCH = 'master' ]; then /cpssd.net/.circleci/deploy.sh; fi

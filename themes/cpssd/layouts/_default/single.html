@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+<section>
+  {{ if ne .Type "root-page"}}
+  <h3 class="title">{{ .Title }}</h3>
+  <span class="date">{{ .Date.Format "02 Jan 2006" }}</span>
+  {{ end }}
+  {{ .Content }}
+</section>
+{{ partial "footer.html" . }}
