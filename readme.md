@@ -25,4 +25,4 @@ The site is based on the Emerald theme for Jekyll.
 - Google+: [+JacopoRabolini](https://plus.google.com/u/0/+JacopoRabolini/posts)
 
 ## License
-Emerald is released under [MIT License](license.md).
+Emerald is released under [MIT Licence](licence.md).
