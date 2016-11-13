@@ -1,4 +1,4 @@
-## Released under MIT License
+## Released under MIT Licence
 
 The Emerald theme for Jekyll is Copyright (c) 2015 Jacopo Rabolini
 
