@@ -27,7 +27,7 @@ You should also [follow all of our RSS feeds](http://feedlark.com)...
 
 ## Graduating 2019
 
-- Aaron Delaney: [website](http://devoxel.net), [twitter](http://twitter.com/devoxel), [github](http://github.com/devoxel)
+- Aaron Delaney: [website](http://devoxel.github.io), [twitter](http://twitter.com/devoxel), [github](http://github.com/devoxel)
 - Noah Donnelly: [website](http://mycode.doesnot.run), [twitter](http://twitter.com/iandioch), [github](http://github.com/iandioch), [linkedin](https://ie.linkedin.com/in/noah-donnelly-21428269)
 - Marcin Gardas: [website](http://marcingardas.com)
 - Breogán Hackett: [github](https://github.com/boaheck)
