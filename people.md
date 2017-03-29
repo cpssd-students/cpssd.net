@@ -17,13 +17,13 @@ You should also [follow all of our RSS feeds](http://feedlark.com)...
 
 ## Graduating 2020
 
-- Alex McGrath Kraak: [github](https://github.com/AlexKraak), [twitter](https://twitter.com/mouldysammich), [website](http://kraak.party/)
-- Ben McMahon: [website](http://www.redbrick.dcu.ie/~mcmahon/), [github](https://github.com/benmcmahon100)
 - Edward Dowling: [github](https://github.com/EdwardDowling)
-- Oskar McDermot: [twitter](http://twitter.com/OskarmcD), [github](http://github.com/oskarmcd), [website](http://1999.cool/)
 - Rory Williams Doyle: [github](https://github.com/Rawd2020)
-- Senan Kelly: [website](http://senan.xyz), [twitter](http://twitter.com/sentriz), [github](http://github.com/sentriz)
 - Zak Freeman: [github](https://github.com/izaakf)
+- Senan Kelly: [website](http://senan.xyz), [twitter](http://twitter.com/sentriz), [github](http://github.com/sentriz)
+- Oskar McDermot: [website](http://1999.cool), [twitter](http://twitter.com/OskarmcD), [github](http://github.com/oskarmcd)
+- Alex McGrath Kraak: [website](http://kraak.party), [github](https://github.com/AlexKraak), [twitter](https://twitter.com/mouldysammich)
+- Ben McMahon: [website](http://www.redbrick.dcu.ie/~mcmahon/), [github](https://github.com/benmcmahon100)
 
 ## Graduating 2019
 
