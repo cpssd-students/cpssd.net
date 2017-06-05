@@ -18,7 +18,7 @@ You should also [follow all of our RSS feeds](http://feedlark.com)...
 ## Graduating 2020
 
 - Edward Dowling: [github](https://github.com/EdwardDowling)
-- Rory Williams Doyle: [github](https://github.com/Rawd2020)
+- Rory Williams Doyle: [website](https://rorywilliamsdoyle.com), [github](https://github.com/Rawd2020)
 - Zak Freeman: [github](https://github.com/izaakf)
 - Senan Kelly: [website](http://senan.xyz), [twitter](http://twitter.com/sentriz), [github](http://github.com/sentriz)
 - Oskar McDermot: [website](http://1999.cool), [twitter](http://twitter.com/OskarmcD), [github](http://github.com/oskarmcd)
