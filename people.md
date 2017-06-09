@@ -21,7 +21,7 @@ You should also [follow all of our RSS feeds](http://feedlark.com)...
 - Rory Williams Doyle: [website](https://rorywilliamsdoyle.com), [github](https://github.com/Rawd2020)
 - Zak Freeman: [github](https://github.com/izaakf)
 - Senan Kelly: [website](http://senan.xyz), [twitter](http://twitter.com/sentriz), [github](http://github.com/sentriz)
-- Oskar McDermot: [website](http://1999.cool), [twitter](http://twitter.com/OskarmcD), [github](http://github.com/oskarmcd)
+- Oskar McDermott: [website](http://1999.cool), [twitter](http://twitter.com/OskarmcD), [github](http://github.com/oskarmcd)
 - Alex McGrath Kraak: [website](http://kraak.party), [twitter](https://twitter.com/mouldysammich), [github](https://github.com/AlexKraak)
 - Ben McMahon: [website](http://www.redbrick.dcu.ie/~mcmahon/), [github](https://github.com/benmcmahon100)
 
