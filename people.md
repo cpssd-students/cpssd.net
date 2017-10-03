@@ -13,8 +13,6 @@ There is a partial Twitter list of CPSSD-related accounts [here](https://twitter
 
 There is a [CPSSD Github group](http://github.com/CPSSD) too, however many people are private on it.
 
-You should also [follow all of our RSS feeds](http://feedlark.com)...
-
 ## Graduating 2020
 
 - Edward Dowling: [github](https://github.com/EdwardDowling)
