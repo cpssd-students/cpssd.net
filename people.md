@@ -32,7 +32,7 @@ You should also [follow all of our RSS feeds](http://feedlark.com)...
 - Marcin Gardas: [website](http://marcingardas.com)
 - Breogán Hackett: [github](https://github.com/boaheck)
 - Clíodhna Harrison: [twitter](https://twitter.com/Classic_Cli), [github](https://github.com/cliodhnaharrison), [linkedin](https://www.linkedin.com/in/cl%C3%ADodhna-harrison-94759b107)
-- Brandon Ibbotson: [github](http://github.com/byxor)
+- Brandon Ibbotson: [website](https://byxor.github.io/), [github](http://github.com/byxor)
 - Stefan Kennedy
 - Kumaran Keyes
 - Ciarán Murphy: [github](https://github.com/Smurphicus)
