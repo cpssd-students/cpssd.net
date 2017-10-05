@@ -18,6 +18,7 @@ There is a [CPSSD Github group](http://github.com/CPSSD) too, however many peopl
 - Edward Dowling: [github](https://github.com/EdwardDowling)
 - Rory Williams Doyle: [website](https://rorywilliamsdoyle.com), [github](https://github.com/Rawd2020)
 - Zak Freeman: [github](https://github.com/izaakf)
+- Clíodhna Harrison: [twitter](https://twitter.com/Classic_Cli), [github](https://github.com/cliodhnaharrison), [linkedin](https://www.linkedin.com/in/cl%C3%ADodhna-harrison-94759b107)
 - Senan Kelly: [website](http://senan.xyz), [twitter](http://twitter.com/sentriz), [github](http://github.com/sentriz)
 - Oskar McDermott: [website](http://1999.cool), [twitter](http://twitter.com/OskarmcD), [github](http://github.com/oskarmcd)
 - Alex McGrath Kraak: [website](http://kraak.party), [twitter](https://twitter.com/mouldysammich), [github](https://github.com/AlexKraak)
@@ -29,7 +30,6 @@ There is a [CPSSD Github group](http://github.com/CPSSD) too, however many peopl
 - Noah Donnelly: [website](http://mycode.doesnot.run), [twitter](http://twitter.com/iandioch), [github](http://github.com/iandioch), [linkedin](https://ie.linkedin.com/in/noah-donnelly-21428269)
 - Marcin Gardas: [website](http://marcingardas.com)
 - Breogán Hackett: [github](https://github.com/boaheck)
-- Clíodhna Harrison: [twitter](https://twitter.com/Classic_Cli), [github](https://github.com/cliodhnaharrison), [linkedin](https://www.linkedin.com/in/cl%C3%ADodhna-harrison-94759b107)
 - Brandon Ibbotson: [website](https://byxor.github.io/), [github](http://github.com/byxor)
 - Stefan Kennedy
 - Kumaran Keyes
