@@ -51,7 +51,7 @@ There is a [CPSSD Github group](http://github.com/CPSSD) too, however many peopl
 - Seán Healy: [github](https://github.com/SeanHealy33)
 - Mladen Kajic: [github](https://github.com/CanOpener)
 - Ryan Connell: [website](http://rhinodude.com), [github](https://github.com/RyanConnell)
-- Conor McManus: [github](https:/github.com/cgmc)
+- Conor McManus: [github](https://github.com/cgmc)
 - Jack Smith: [github](https://github.com/JackSmith54)
 
 
