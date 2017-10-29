@@ -53,7 +53,7 @@ You should also [follow all of our RSS feeds](http://feedlark.com)...
 - Seán Healy: [github](https://github.com/SeanHealy33)
 - Mladen Kajic: [github](https://github.com/CanOpener)
 - Ryan Connell: [website](http://rhinodude.com), [github](https://github.com/RyanConnell)
-- Conor McManus: [github](https:/github.com/cgmc)
+- Conor McManus: [github](https://github.com/cgmc)
 - Jack Smith: [github](https://github.com/JackSmith54)
 
 
