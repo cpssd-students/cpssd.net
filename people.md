@@ -53,10 +53,10 @@ There is a [CPSSD Github group](http://github.com/CPSSD) too, however many peopl
 - Ryan Connell: [website](http://rhinodude.com), [github](https://github.com/RyanConnell)
 - Conor McManus: [github](https://github.com/cgmc)
 - Jack Smith: [github](https://github.com/JackSmith54)
+- Rory Byrne (left CPSSD): [github](https://github.com/RoryOfByrne), [website](http://rorybyrne.me)
 
 
 ## Graduating 2017
 
 - Luke Barr
-- Rory Byrne
 - Abdullah Mohammad
