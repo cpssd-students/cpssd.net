@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Students in CPSSD Provide 72% of Ireland&#39;s Total Score on Kattis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link href="" rel="alternate" type="application/rss+xml" title="The Unofficial CPSSD Homepage" />
+  <link href="https://cpssd.net/css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header class="center middle half min">
+    <h1><a href="/" class="black">The Unofficial CPSSD Homepage</a></h1>
+    <p>Computational Problem Solving and Software Development (CPSSD) is an
+undergraduate computing course in Dublin City University. It is aimed at
+applicants with prior programming experience, and is generally the hippest
+place to be this side of Ballymaloe.
+</p>
+    <nav>
+    
+      <a href="/about/">About</a>
+    
+      <a href="/students/">Students</a>
+    
+    </nav>
+  </header>
+  <section class="middle half min">
+
+<section>
+  
+  <h3 class="title">Students in CPSSD Provide 72% of Ireland&#39;s Total Score on Kattis</h3>
+  <span class="date">07 Apr 2017</span>
+  
+  <p><a href="https://open.kattis.com">Kattis</a> is an online judge for competitive programming
+problems, that some CPSSD students have been using to practise for various
+competitions. You can read about our success at <a href="/blog/2017-hashcode">2017&rsquo;s HashCode</a>,
+for example.</p>
+
+<p>The website includes a list of problems, of varying degrees of difficulty.
+When a user solves a problem, they get between 1 and 10 points based on how
+hard that problem is; the harder the problem, the higher the points. The
+website then shows how each user ranks to others on a global scale, and also
+others in the same university and country.</p>
+
+<p>However, Kattis also uses the scores of individuals in a university or country
+to get a combined score for that group. It then ranks universities against each
+other, and countries against each other.</p>
+
+<p>Because of the hard work of several DCU students, including CPSSDs, Dublin City
+University has become the <a href="https://open.kattis.com/countries/IRL">number one university in Ireland</a> on the site, and
+just today became the <a href="https://open.kattis.com/ranklist/universities">50th placed university in the world</a>.</p>
+
+<p><blockquote class="twitter-tweet" data-lang="ga"><p lang="en" dir="ltr">Did some work on <a href="https://t.co/9AcbsGqtsK">https://t.co/9AcbsGqtsK</a>; <a href="https://twitter.com/DublinCityUni">@DublinCityUni</a> is now the #50 university in the world there (and best in Ireland by miles) ❤️ <a href="https://t.co/jA2QqKtq7c">pic.twitter.com/jA2QqKtq7c</a></p>&mdash; noah ó ☭onnaile (@iandioch) <a href="https://twitter.com/iandioch/status/850157784851197952">7 Aibreán 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>In fact, DCU is the only Irish university in the top 100, and is the 21st placed
+in Europe. Trinity College comes next, at 156th place globally. Out of our
+neighbouring universities in Britain and Northern Ireland, only Edinburgh and
+Oxford are ranked better than DCU.</p>
+
+<p>Ireland as a whole has also risen up <a href="https://open.kattis.com/ranklist/countries">the rankings</a> recently, and is
+currently the 27th placed country in the world, just behind France. It may
+soon pass out France too - vive la révolution!</p>
+
+<p>I decided to do some research to measure how much impact CPSSD students had in
+raising the reputation of Ireland and of DCU on Kattis. The website is kind
+enough to <a href="https://open.kattis.com/help/ranklist">explain its ranking algorithm in detail</a>. In short, here is what
+it does to measure a group&rsquo;s combined score:</p>
+
+<ul>
+<li>It takes the individual scores of everyone in the group, and sorts them.</li>
+<li>A formula is given to provide the fraction of each member in the group&rsquo;s score
+that should be added to the combined score. The higher you are in the group,
+the more of your score is taken into account in calculating the combined
+score.</li>
+<li>For example, the first placed person in the group adds 20% of their score to
+the combined amount, while the second placed person adds 16% of their score.</li>
+<li>It adds together each individual score multiplied by its above fraction to get
+a final answer.</li>
+</ul>
+
+<p>I wrote <a href="https://gist.github.com/iandioch/ac633cf2e130b050ee1f6a7a565b6da2">a script</a> to measure how much of Ireland&rsquo;s total score is provided
+by CPSSD students. Here are the results:</p>
+
+<table>
+<thead>
+<tr>
+<th>Irish Rank</th>
+<th>Individual Score</th>
+<th>% Added</th>
+<th># Added</th>
+<th>Cumulative Total</th>
+<th>Name</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>#1</td>
+<td>433.8</td>
+<td>20.0%</td>
+<td>86.76</td>
+<td>86.76</td>
+<td>Noah Ó Donnaile</td>
+</tr>
+
+<tr>
+<td>#2</td>
+<td>307.6</td>
+<td>16.0%</td>
+<td>49.22</td>
+<td>135.98</td>
+<td>Cian Ruane</td>
+</tr>
+
+<tr>
+<td>#3</td>
+<td>290.4</td>
+<td>12.8%</td>
+<td>37.17</td>
+<td>173.15</td>
+<td>Stefan Kennedy</td>
+</tr>
+
+<tr>
+<td>#7</td>
+<td>145.9</td>
+<td>5.2%</td>
+<td>7.65</td>
+<td>180.80</td>
+<td>Brandon Ibbotson</td>
+</tr>
+
+<tr>
+<td>#29</td>
+<td>13.0</td>
+<td>0.0%</td>
+<td>0.01</td>
+<td>180.80</td>
+<td>Ross O&rsquo;Sullivan</td>
+</tr>
+
+<tr>
+<td>#30</td>
+<td>9.6</td>
+<td>0.0%</td>
+<td>0.00</td>
+<td>180.80</td>
+<td>Cliodhna Harrison</td>
+</tr>
+
+<tr>
+<td>#31</td>
+<td>7.2</td>
+<td>0.0%</td>
+<td>0.00</td>
+<td>180.81</td>
+<td>Ciaran Murphy</td>
+</tr>
+
+<tr>
+<td>#35</td>
+<td>5.8</td>
+<td>0.0%</td>
+<td>0.00</td>
+<td>180.81</td>
+<td>Lucas Savva</td>
+</tr>
+
+<tr>
+<td>#39</td>
+<td>3.8</td>
+<td>0.0%</td>
+<td>0.00</td>
+<td>180.81</td>
+<td>Oskar McDermott</td>
+</tr>
+</tbody>
+</table>
+
+<p>The leftmost number is each person&rsquo;s ranking on the Irish leaderboard. Their
+score follows, then the percentage of this score that is added to the combined
+Irish score. Following is the actual value of this contribution, and then
+Ireland&rsquo;s score so far, consisting of this number and all previous CPSSD&rsquo;s
+contributions. Finally is the name of each person. At the end, the total score
+provided by CPSSD students is output, followed by Ireland&rsquo;s total score, and
+then the percentage of this score that the CPSSD score makes up.</p>
+
+<p>You can see here that right now, CPSSDs provide a total of 180.81 of Ireland&rsquo;s
+250.80 points - that is 72% of Ireland&rsquo;s total score!</p>
+
+<p>It is clear that CPSSD has managed to gather some talented students, as I
+believe was its aim. However, while individually many of us are undoubtedly
+talented, what has struck me is that the competition and collaberation available
+when we are together is the real catalyst. This could be summed up in the saying
+&ldquo;the whole is greater than the sum of its parts&rdquo;, but I think the following is
+more exciting:</p>
+
+<blockquote>
+<p>&ldquo;Society does not consist of individuals but expresses the sum of
+interrelations&rdquo; - Karl Marx</p>
+</blockquote>
+
+<p>Of course, this does not apply just to CPSSD, but also to the wider DCU
+community. As such, here is a similar table, but including everyone in the top
+50 in Ireland from Dublin City University:</p>
+
+<table>
+<thead>
+<tr>
+<th>Irish Rank</th>
+<th>Individual Score</th>
+<th>% Added</th>
+<th># Added</th>
+<th>Cumulative Total</th>
+<th>Name</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>#1</td>
+<td>433.8</td>
+<td>20.0%</td>
+<td>86.76</td>
+<td>86.76</td>
+<td>Noah Ó Donnaile</td>
+</tr>
+
+<tr>
+<td>#2</td>
+<td>307.5</td>
+<td>16.0%</td>
+<td>49.20</td>
+<td>135.96</td>
+<td>Cian Ruane</td>
+</tr>
+
+<tr>
+<td>#3</td>
+<td>290.4</td>
+<td>12.8%</td>
+<td>37.17</td>
+<td>173.13</td>
+<td>Stefan Kennedy</td>
+</tr>
+
+<tr>
+<td>#4</td>
+<td>263.9</td>
+<td>10.2%</td>
+<td>27.02</td>
+<td>200.15</td>
+<td>Ciara Godwin</td>
+</tr>
+
+<tr>
+<td>#5</td>
+<td>165.4</td>
+<td>8.2%</td>
+<td>13.55</td>
+<td>213.70</td>
+<td>Niall Lyons</td>
+</tr>
+
+<tr>
+<td>#7</td>
+<td>145.9</td>
+<td>5.2%</td>
+<td>7.65</td>
+<td>221.35</td>
+<td>Brandon Ibbotson</td>
+</tr>
+
+<tr>
+<td>#14</td>
+<td>55.0</td>
+<td>1.1%</td>
+<td>0.60</td>
+<td>221.96</td>
+<td>Michal Durinik</td>
+</tr>
+
+<tr>
+<td>#18</td>
+<td>38.2</td>
+<td>0.5%</td>
+<td>0.17</td>
+<td>222.13</td>
+<td>Chris Dowling</td>
+</tr>
+
+<tr>
+<td>#21</td>
+<td>33.3</td>
+<td>0.2%</td>
+<td>0.08</td>
+<td>222.21</td>
+<td>Tom Doyle</td>
+</tr>
+
+<tr>
+<td>#29</td>
+<td>13.0</td>
+<td>0.0%</td>
+<td>0.01</td>
+<td>222.21</td>
+<td>Ross O&rsquo;Sullivan</td>
+</tr>
+
+<tr>
+<td>#30</td>
+<td>9.6</td>
+<td>0.0%</td>
+<td>0.00</td>
+<td>222.22</td>
+<td>Cliodhna Harrison</td>
+</tr>
+
+<tr>
+<td>#31</td>
+<td>7.2</td>
+<td>0.0%</td>
+<td>0.00</td>
+<td>222.22</td>
+<td>Ciaran Murphy</td>
+</tr>
+
+<tr>
+<td>#33</td>
+<td>6.2</td>
+<td>0.0%</td>
+<td>0.00</td>
+<td>222.22</td>
+<td>Han McKenna</td>
+</tr>
+
+<tr>
+<td>#35</td>
+<td>5.8</td>
+<td>0.0%</td>
+<td>0.00</td>
+<td>222.22</td>
+<td>Lucas Savva</td>
+</tr>
+
+<tr>
+<td>#37</td>
+<td>5.5</td>
+<td>0.0%</td>
+<td>0.00</td>
+<td>222.22</td>
+<td>Adlan Djimani</td>
+</tr>
+
+<tr>
+<td>#39</td>
+<td>3.8</td>
+<td>0.0%</td>
+<td>0.00</td>
+<td>222.22</td>
+<td>Oskar McDermott</td>
+</tr>
+
+<tr>
+<td>#41</td>
+<td>3.5</td>
+<td>0.0%</td>
+<td>0.00</td>
+<td>222.22</td>
+<td>Marin Bivol</td>
+</tr>
+
+<tr>
+<td>#41</td>
+<td>3.5</td>
+<td>0.0%</td>
+<td>0.00</td>
+<td>222.22</td>
+<td>Tríona Barrow</td>
+</tr>
+
+<tr>
+<td>#46</td>
+<td>2.2</td>
+<td>0.0%</td>
+<td>0.00</td>
+<td>222.22</td>
+<td>Mark Andrade</td>
+</tr>
+
+<tr>
+<td>#49</td>
+<td>1.0</td>
+<td>0.0%</td>
+<td>0.00</td>
+<td>222.22</td>
+<td>Daniel Asofiei</td>
+</tr>
+</tbody>
+</table>
+
+<p>DCU makes up almost 90% of Ireland&rsquo;s score on Kattis, at 222.22 of Éire&rsquo;s
+250.80 points - I think that&rsquo;s pretty great!</p>
+
+<p>These numbers will get more out of date as time goes on, and as DCU and Ireland
+climb the ranks further (fingers crossed). I look forward to making another post
+in the future when DCU is a top-10 university :)</p>
+
+<p>Ádh mór leat,</p>
+
+<p><a href="http://noah.needs.money">Noah Ó Donnaile</a></p>
+
+</section>
+</section>
+</body>
+</html>
+

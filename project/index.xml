@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on The Unofficial CPSSD Homepage</title>
+    <link>https://cpssd.net/project/</link>
+    <description>Recent content in Projects on The Unofficial CPSSD Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ie</language>
+    <lastBuildDate>Tue, 17 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cpssd.net/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Project: Feedlark</title>
+      <link>https://cpssd.net/project/feedlark/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cpssd.net/project/feedlark/</guid>
+      <description>Feedlark is an RSS aggregator built by Aaron Delaney, Lucas Savva, Cian Ruane, Ross O&amp;rsquo;sullivan and Noah Donnelly.
+Feedlark aims to be efficient, fast, and smart. Users can get updates on RSS or Atom feeds they follow through a slick Material Design interface. They can receive email summaries of their stream, view their stream through a plaintext endpoint (ideal for command line usage!) and bookmark articles for later.
+What&amp;rsquo;s more, a user can upvote and downvote articles according to their interests.</description>
+    </item>
+    
+    <item>
+      <title>Project: kRAYate</title>
+      <link>https://cpssd.net/project/krayate/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cpssd.net/project/krayate/</guid>
+      <description>Krayate is a simple game engine that uses raycast rendering.
+It seeks to evoke the feeling of early 3d rendered games such as DOOM and Wolfenstein 3D. Krayate features a custom programming language, and allows users to design interactable objects.</description>
+    </item>
+    
+  </channel>
+</rss>

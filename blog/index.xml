@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on The Unofficial CPSSD Homepage</title>
+    <link>https://cpssd.net/blog/</link>
+    <description>Recent content in Blogs on The Unofficial CPSSD Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ie</language>
+    <lastBuildDate>Fri, 07 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cpssd.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Students in CPSSD Provide 72% of Ireland&#39;s Total Score on Kattis</title>
+      <link>https://cpssd.net/blog/2017-kattis/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cpssd.net/blog/2017-kattis/</guid>
+      <description>Kattis is an online judge for competitive programming problems, that some CPSSD students have been using to practise for various competitions. You can read about our success at 2017&amp;rsquo;s HashCode, for example.
+The website includes a list of problems, of varying degrees of difficulty. When a user solves a problem, they get between 1 and 10 points based on how hard that problem is; the harder the problem, the higher the points.</description>
+    </item>
+    
+    <item>
+      <title>CPSSD Taking No New Entries</title>
+      <link>https://cpssd.net/blog/rip/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cpssd.net/blog/rip/</guid>
+      <description>Tá CPSSD marbh, go maire &amp;lt;TBD&amp;gt;.
+On the 17th of November, all the current students of CPSSD (née PSSD) receieved an email from Rory O&amp;rsquo;Connor, the Head of the School of Computing in DCU, detailing the suspension of the course. Unfortunately, the email had the bog-standard TOS at the bottom of all university emails warning me not to share it here (curse non-free-as-in-speech licences).
+It described that:
+ There will be no first year CPSSD group in 2017&amp;frasl;2018.</description>
+    </item>
+    
+    <item>
+      <title>CPSSD Tackles Hashcode 2017</title>
+      <link>https://cpssd.net/blog/2017-hashcode/</link>
+      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cpssd.net/blog/2017-hashcode/</guid>
+      <description>&lt;p&gt;Google&amp;rsquo;s &lt;a href=&#34;http://hashcode.withgoogle.com&#34;&gt;Hashcode&lt;/a&gt; qualification round took
+place on the 23rd of February, and lots of CPSSD first and second years crowded
+in the DCU Hashcode hub to compete.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>First Year Experiences</title>
+      <link>https://cpssd.net/blog/tips/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cpssd.net/blog/tips/</guid>
+      <description>Around New Year&amp;rsquo;s, I wrote a wee article on what I&amp;rsquo;d experienced over the first semester of CPSSD. It might be a useful read for someone to see what the course content is like in that first semester, or for someone who is about to start the course and has to decide on their modules.
+However, more recently, Cian Ruane wrote a post where he broke down the structure of the course across the whole year.</description>
+    </item>
+    
+  </channel>
+</rss>

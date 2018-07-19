@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://cpssd.net/blog/2017-kattis/</loc>
+    <lastmod>2017-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpssd.net/blog/rip/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpssd.net/blog/2017-hashcode/</loc>
+    <lastmod>2017-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpssd.net/blog/tips/</loc>
+    <lastmod>2016-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpssd.net/project/feedlark/</loc>
+    <lastmod>2016-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpssd.net/project/krayate/</loc>
+    <lastmod>2016-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpssd.net/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cpssd.net/blog/</loc>
+    <lastmod>2017-04-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cpssd.net/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cpssd.net/project/</loc>
+    <lastmod>2016-05-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cpssd.net/students/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cpssd.net/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cpssd.net/</loc>
+    <lastmod>2017-04-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

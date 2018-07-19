@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-left: calc(100vw - 100%);
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header::after {
+  display: block;
+  content: '';
+  width: 15%;
+  height: 1px;
+  margin: 1rem auto;
+  background-color: lightgrey;
+}
+
+.center {
+  text-align: center;
+}
+
+.middle {
+  margin: 0 auto;
+}
+
+.half {
+  width: 50%;
+}
+
+.min {
+  min-width: 800px;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
+
+nav a {
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.date {
+  color: grey;
+}
+
+.black {
+  color: black;
+}
+
+table#students {
+    border-spacing: 0.5em 0;
+}
