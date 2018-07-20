@@ -1,5 +1,6 @@
 # cpssd.net
 
+[![CircleCI](https://circleci.com/gh/cpssd-students/cpssd.net.svg?style=shield)](https://circleci.com/gh/cpssd-students/cpssd.net)
 
 This is an unoffical hub for CPSSD, because the real website is very static,
 full of typos, inaccessible to any of us, and just generally dense and formal.
