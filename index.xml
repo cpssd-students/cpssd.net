@@ -6,10 +6,20 @@
     <description>Recent content on The Unofficial CPSSD Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ie</language>
-    <lastBuildDate>Fri, 07 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://cpssd.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Project: Dipla</title>
+      <link>https://cpssd.net/project/dipla/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cpssd.net/project/dipla/</guid>
+      <description>Dipla is a distributed computing framework for Python built by Cian Ruane, Noah Donnelly, Brandon Ibbotson and Stefan Kennedy.
+Goals Our original goal and the main guiding principle behind Dipla was to build a framework that was easy to reason about from the outside but still quite clever on the inside. Our hope was that we could create something that allowed people to write distributed Python code that looked almost the same as if it were running locally.</description>
+    </item>
     
     <item>
       <title>Students in CPSSD Provide 72% of Ireland&#39;s Total Score on Kattis</title>

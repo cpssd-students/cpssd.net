@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Project: Dipla</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link href="" rel="alternate" type="application/rss+xml" title="The Unofficial CPSSD Homepage" />
+  <link href="https://cpssd.net/css/main.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif" rel="stylesheet">
+</head>
+<body>
+  <header class="center middle half min">
+    <h1><a href="/" class="black">The Unofficial CPSSD Homepage</a></h1>
+    <p>Computational Problem Solving and Software Development (CPSSD) is an
+undergraduate computing course in Dublin City University. It is aimed at
+applicants with prior programming experience, and is generally the hippest
+place to be this side of Ballymaloe.
+</p>
+    <nav>
+    
+      <a href="/about/">About</a>
+    
+      <a href="/students/">Students</a>
+    
+    </nav>
+  </header>
+  <section class="middle half min">
+
+<section>
+  
+  <h3 class="title">Project: Dipla</h3>
+  <span class="date">21 Jul 2018</span>
+  
+  
+
+<p><img src="/img/dipla_logo.png" alt="Dipla Logo" /></p>
+
+<p><a href="https://github.com/cpssd/dipla">Dipla</a> is a distributed computing framework for Python built by Cian Ruane, Noah Donnelly, Brandon Ibbotson and Stefan Kennedy.</p>
+
+<h3 id="goals">Goals</h3>
+
+<p>Our original goal and the main guiding principle behind Dipla was to build a framework that was easy to reason about from the outside but still quite clever on the inside. Our hope was that we could create something that allowed people to write distributed Python code that looked almost the same as if it were running locally.</p>
+
+<h3 id="api">API</h3>
+
+<p>Our approach was to use Python decorators to mark functions that the user wanted to distribute and then have the users apply those functions to inputs or promises returned by previous functions. The results could be surfaced by a call to <code>Dipla.get()</code>. The idea was that users would break their work into a number of functions and then use Dipla to chain those together in an efficent, distributed way. An example usecase would be some map/reduce style job where many individual inputs must be transformed and then combined.</p>
+
+<h3 id="design">Design</h3>
+
+<p>Behind the scenes the code the user wrote would act as the main server and then other computers running generic client code could connect to it and recieve functions to execute and data to operate on. It turned regular functions into RPCs quite transparently. All of the work was done through Python meta-programming, the code objects of the functions themselves would be extracted, serialised and sent over the network to clients. This architecture allowed us to keep the client code the same for any task.</p>
+
+<h3 id="features">Features</h3>
+
+<p>After the core server and client was developed we fleshed the project out with more features:</p>
+
+<ul>
+<li>Automatic benchmarks of clients to inform task scheduling.</li>
+<li>Server-side verification of client outputs.</li>
+<li>Automatic multiple runs of the same data to remove rogue or faulty clients.</li>
+<li>Early exiting for needle/haystack style problems.</li>
+<li>GUI or JSON based configuration of client.</li>
+<li>Discovery server for clients to easily find project servers to recieve work from.</li>
+<li>Statistics reporting through a server dashboard page.</li>
+<li>Wrappers around distributed programming primitives such as sharding.</li>
+<li>Authentication when connecting to servers.</li>
+<li>Multi-core support for clients.</li>
+</ul>
+
+<h4 id="automatic-benchmarks-of-clients">Automatic Benchmarks of Clients</h4>
+
+<p>When a client is launched it does a self-check that involves running a number of microbenchmarks and combining their results into a single score which it sends to the server as part of its initial connection request. The server uses this data to prioritise clients with good scores when deciding where to allocate work. The benchmark is sensitive to whatever unrelated load is on the CPU when the client is started but overall we found the order of the clients to be in line with our expectations when tested on multiple different computers.</p>
+
+<h4 id="results-verification">Results Verification</h4>
+
+<p>Dipla has support for two different styles of output verification. The first style allows a user to attach a &ldquo;verification function&rdquo; when marking a function for distribution. This verification function is run on each of the outputs recieved and if it detects an incorrect output it can request that bit of data be rerun. E.g. if you have a function calculating a prime factorisation of a number you can write a verification function that multiplies the output numbers together and checks it equals the input number.</p>
+
+<p>The second style of verification is used to detect misbehaving clients. A user is able to specify a certion fraction of the data to be run multiple times on different clients to ensure that each client returns the same result. If it&rsquo;s the case that different results are recieved the result most frequently seen is declared the canonical result and clients returning something different are marked as untrustworthy. Obviously this feature is only useful in cases where there is an objectively correct output and not something such as the latency to a particular server.</p>
+
+<h3 id="more-info">More info</h3>
+
+<p>For more info you can visit the <a href="https://github.com/cpssd/dipla">Dipla GitHub repo</a> or to see Dipla in action you can check out our <a href="https://github.com/cpssd/dipla/tree/master/examples">examples directory</a>.</p>
+
+</section>
+</section>
+<footer>
+    Made with 〈❤〉 by <a href="https://github.com/cpssd-students">CPSSD Students</a>
+</footer>
+</body>
+</html>
+

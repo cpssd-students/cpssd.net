@@ -1,11 +1,31 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
+  position: relative;
   margin: 0;
   padding: 0;
   padding-left: calc(100vw - 100%);
+  font-family: 'Noto Sans', sans-serif;
+  padding-bottom: 6rem;
+  min-height: calc(100% - 2rem);
 }
 
 header h1 {
   font-size: 3rem;
+  font-family: 'Noto Serif', serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Noto Serif', serif;
 }
 
 header::after {
@@ -47,6 +67,7 @@ nav a {
   font-size: 2rem;
   margin: 0;
   margin-bottom: 0;
+  font-family: 'Noto Serif', serif;
 }
 
 .date {
@@ -59,4 +80,14 @@ nav a {
 
 table#students {
     border-spacing: 0.5em 0;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
