@@ -1,7 +1,7 @@
-{{ range .Site.Data.students }}
+{{ range sort .Site.Data.students "graduation" "desc" }}
   <table id="students">
     <tr><td><h2>Graduating {{ .graduation }}</h2></td></tr>
-  {{ range .students }}
+  {{ range sort .students "name" }}
     <tr>
       <td>{{.name}}{{if .left}} (left CPSSD){{end}}</td>
       <td>{{with .github}}{{if .}}<a href="{{.}}">github</a>{{else}}&nbsp;{{end}}{{end}}</td>
