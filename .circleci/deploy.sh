@@ -4,8 +4,8 @@ set -x
 set -e
 
 git config --global push.default simple
-git config --global user.email $(git --no-pager show -s --format='%ae' HEAD)
-git config --global user.name $(git --no-pager show -s --format='%an' HEAD)
+git config --global user.email "$(git --no-pager show -s --format='%ae' HEAD)"
+git config --global user.name "$(git --no-pager show -s --format='%an' HEAD)"
 
 git clone -q --branch=gh-pages $CIRCLE_REPOSITORY_URL $DEPLOY_DIR
 
