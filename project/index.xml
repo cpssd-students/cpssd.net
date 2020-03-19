@@ -6,10 +6,19 @@
     <description>Recent content in Projects on The Unofficial CPSSD Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ie</language>
-    <lastBuildDate>Sat, 21 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://cpssd.net/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CPSSD Research Project Published In ACL 2019 Conference</title>
+      <link>https://cpssd.net/project/lucas/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cpssd.net/project/lucas/</guid>
+      <description>Taking the latest and greatest advances in natural language processing and deep learning, CPSSD students trained a series of models to classify human deception in datasets of user submitted reviews. The output of the research was threefold: a scientific paper describing our research; an open source API providing access to query our trained models; and Lucify, a web interface allowing end users to view an interactive and comprehensive report of review deception and legitimacy.</description>
+    </item>
     
     <item>
       <title>Project: Dipla</title>
