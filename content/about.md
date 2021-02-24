@@ -3,7 +3,7 @@ title: 'About'
 type: 'root-page'
 ---
 # About CPSSD
-Computational Problem Solving and Software Development (CPSSD) is an
+Computational Problem Solving and Software Development (CPSSD) was an
 undergraduate computing course in [Dublin City University][1] that requires
 applicants to have prior knowledge of programming. This means that students
 can save time re-learning the basisc, and jump straight into making some
